@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.salesforce</groupId>
+  <artifactId>salesforce-integration</artifactId>
+  <version>1.1</version>
+  <packaging>jar</packaging>
+
+  <name>salesforce-integration</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- Salesforce dependencies -->
+		<dependency>
+			<groupId>com.salesforce.ws</groupId>
+			<artifactId>salesforce-wsc</artifactId>
+			<version>1.1</version>
+		</dependency>
+  </dependencies>
+</project>
