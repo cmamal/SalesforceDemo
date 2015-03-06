@@ -1,5 +1,6 @@
 # SalesforceDemo
-Web Project : Connect to Salesforce and fetch data from salesforce schema
+Web Project : Connect to Salesforce and fetch data from salesforce schema.
+
 Projects include 3 module
 1. salesforce-wsc : generates client jars for given salesforce wsdl.
 2. salesforce-integration : utilities to connect to salesforce and retrieve salesforce objects using SOQL queries.
